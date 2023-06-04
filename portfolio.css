@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family:'Poppins' , sans-serif ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(18,18,62);
+    padding: 0 60px;
+   
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    display: flex;
+    justify-content:space-between;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(139, 139, 244);
+    font-size: 1.05rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+.first > div{
+    width: 30%;
+}
+.leftsection{
+    margin-top: 50px;
+    font-size: 3rem;
+}
+.rightsection img{
+    width: 100%;
+    height: 100%;
+}
+.purple{
+    color: rgb(145, 82, 145);
+}
+#element{
+    color: rgb(145, 82, 145);
+}
+.second {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 90px;
+    
+}
+.left img{
+    width: 150%;
+
+}
+.aboutt{
+    padding-top:150px ;
+    margin-left:630px ;
+    font-size: 1.5rem;
+}
+.aboutt p{
+    font-size: 1rem;
+    margin-left: 35px;
+    color: grey;
+}
+.right{
+    margin-left: 200px;
+    font-size: 1.4rem;
+}
+.cv a{
+    margin: 300px 0;
+}
+.right a{
+    padding: 15px 30px;
+    background-color: rgb(104, 104, 180);
+    color: white;
+    text-decoration: none;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.right a:hover{
+    background-color: rgb(54, 54, 105);;
+}
+.project{
+    margin-top: 200px;
+    margin-left:608px;
+    font-size: 1.5rem;
+}
+.project p{
+    font-size: 1rem;
+    margin-left: 30px;
+    color: grey;
+}
+.third{
+    display: flex;
+}
+.box1 , .box2 , .box3{
+    border: 1px solid rgb(156, 156, 217);
+    width: 350px;
+    height: 350px;
+    margin: 60px ;
+    margin-top: 100px;
+    border-radius: 3px;
+}
+
+.box1 , .box2 ,.box3 p{
+    text-align: center;
+}
+.box1 p{
+    padding: 17px;
+}
+.box3 img{
+    width: 350px;
+    
+}
+.box2 img{
+    width: 350px;
+    height: 200px;
+}
+.button{
+    width: 200px;
+    height: 25px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 65px;
+    text-align: center;
+    background-color: rgb(66, 66, 162);
+    border-radius: 2px;
+    
+    color: white;
+    padding: 10px;
+}
+.contact{
+    margin-top: 200px;
+    margin-left:585px;
+    font-size: 1.5rem;
+}
+.contact p{
+    font-size: 1rem;
+    margin-left: 80px;
+    color: grey;
+}
+.fourth{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 60px;
+}
+.touch{
+    font-size: 2rem;
+}
+.lefttt{
+    width: 30%;
+}
+.lefttt p{
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+.info img , .info2 img , .info3 img{
+    height: 40px;
+    margin-top: 20px;
+}
+
+.righttt{
+    font-size: 2rem;
+    width: 30%;
+}
+
+.info p , .info2 p , .info3  p{
+    display: inline-block;
+    margin-left: 30px;
+}
+.field{
+    display: flex;
+}
+#fieldname , #fieldemail {
+    height: 50px;
+    width: 250px;
+    background-color: transparent;
+    border: 1px solid rgb(156, 156, 217);
+    border-radius: 3px;
+    color: white;
+}
+#fieldemail{
+    margin-left: 20px;
+}
+.field{
+    margin-top: 30px;
+}
+#fieldsubject {
+    height: 50px;
+    width: 523px;
+    background-color: transparent;
+    border: 1px solid rgb(156, 156, 217);
+    border-radius: 3px;
+    color: white;
+}
+#fieldmessage{
+    height: 100px;
+    width: 523px;
+    background-color: transparent;
+    border: 1px solid rgb(156, 156, 217);
+    border-radius: 3px;
+    color: white;
+}
+.buttonn{
+    display: flex;   
+}
+input[type="submit"] {
+    margin-top: 20px;
+    padding:12px 15px;
+    border: none;
+    cursor: pointer;
+    width: 250px;  
+    background-color: rgb(104, 104, 180);
+    border-radius: 3px;
+    color: white;
+    
+}
+input[type="submit"]:hover {
+    background-color: rgb(54, 54, 105);
+}
+#linked{
+    height: 60px;
+    margin-left: 550px;
+}
+#git{
+    height: 60px;
+    margin-left: 50px;
+   
+}
+footer p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 40px;
+}
+footer span{
+    color: rgb(145, 82, 145);
+}
+html{
+    scroll-behavior: smooth;
+}
+ 
